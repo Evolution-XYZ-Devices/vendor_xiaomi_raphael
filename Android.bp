@@ -570,6 +570,20 @@ dex_import {
 }
 
 dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.2-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qualcomm.qti.uceservice-V2.3-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "com.quicinc.cne.api-V1.1-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.1-java.jar"],
@@ -636,6 +650,20 @@ dex_import {
 	name: "vendor.qti.data.factory-V2.1-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.2-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.data.factory-V2.3-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.data.factory-V2.3-java.jar"],
 	system_ext_specific: true,
 }
 
@@ -727,6 +755,13 @@ dex_import {
 	name: "vendor.qti.latency-V2.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.latency-V2.1-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.1-java.jar"],
 	system_ext_specific: true,
 }
 
